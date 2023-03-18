@@ -17,7 +17,7 @@ package google
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"testing"
 
 	cloudbuildv2 "github.com/GoogleCloudPlatform/declarative-resource-client-library/services/google/cloudbuildv2/beta"
